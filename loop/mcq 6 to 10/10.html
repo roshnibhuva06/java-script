@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+//Look at this series: 31, 29, 24, 22, 17, ... What number should come next?
+        let start = 31;
+        let i = 1;
+
+        while (i <= 10) {
+            document.write("  " + start);
+            if (i % 4 == 0) 
+            {
+                start -= 2;
+            }
+            else 
+            {
+                start -= 4;
+            }
+            i++;
+
+        }
+    </script>
+</body>
+
+</html>
