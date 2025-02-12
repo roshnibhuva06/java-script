@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //cheak vote eligibility using nested if else
+
+        let a = prompt("enter your age:")
+        let age = parseInt(a)
+
+        if(age>18)
+       {
+          if(age>60)
+          {
+            document.write("enter valid age !");
+
+          }
+          else{
+            document.write("you are eligible for vote !");
+ 
+          }
+       }
+       else
+       {
+        if(age<=0)
+       {
+        document.write("enter valid ege !");
+ 
+       }
+       else
+       {
+        document.write("you are not eligible for vote !");
+ 
+       }
+       }
+    </script>
+</body>
+</html>
