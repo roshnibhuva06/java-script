@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+         
+
+         let age = prompt("enter you age");
+         let a = parseInt(age);
+        //nested 
+
+        //age : -ve,0,1 to 17,100,100+
+        if (age >= 18) {
+            //18to 100
+            if (age > 100) {
+                console.log("you are  not 100 aligibel vote !");
+            }
+            //18 to 100
+            else {
+                console.log("you are aligible for vote!");
+            }
+
+        }
+        else {
+            //-ve ,0 1 to 17
+            if (age <= 0) {
+                //0
+                if (age == 0) {
+                    console.log("zero is not eligible ");
+
+                }
+                else {
+                    //-
+                    console.log("negetive is not aligible");
+                }
+                else{
+
+                    console.log("you are not aligible for vote!");
+                }
+            }
+
+        }
+    </script>
+</body>
+
+</html>
