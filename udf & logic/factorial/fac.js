@@ -1,3 +1,5 @@
+// wap to print factorial of passed number in udf.
+
 function factorial(n)
 {
 
@@ -7,12 +9,15 @@ function factorial(n)
     for(i=1; i<=n; i++){
 
        fact=fact*i;
+
+        
+
     }
-    document.write("The factorial is:" (n*fact));
+    document.write(`The factorial of ${n} is ${fact}`);
 
 
 }
 
-let n=parseInt(prompt("Enter the value N"));
+let n=parseInt(prompt("Enter the value of N"));
 
 factorial(n);
