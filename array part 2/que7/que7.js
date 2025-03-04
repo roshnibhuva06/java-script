@@ -58,4 +58,26 @@ document.write(arr);
     document.write(five)
 }
 
+//splice
+
+{
+    let newarr = arr.splice["bird" , "perot" , "peacock" , "owl" , "crow", "toucan"];
+    newarr = arr;
+
+    let six = arr.splice(2,2);
+    document.write(six)
+    document.write("<br>")
+ 
+}
+
+//slice
+{
+    let newArr = arr.slice["bird" , "perot" , "peacock" , "owl" , "crow", "toucan"];
+    newArr = arr;
+
+    let seven = arr.slice(2,4);
+    document.write(seven)
+}
+
+
 
