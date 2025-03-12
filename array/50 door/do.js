@@ -9,27 +9,7 @@
 // 5 ->
 
 // ? count : open = ? , closed = ?
-// let num = [1,2,3,4,5,6,7,8,9,10,2,4,6,8,10,12,14,16,18,20]
-// let count = 1;
 
-
-// for(let i=<num.length-1;i=0;i++)//p=1,r=1
-// {
-//   count = 1;//p=1
-//   for(let j=i+1;j<num.length;j++)
-//   {
-//      if(num[i]==num[j])
-//      {
-//         count++;
-//      }
-//      else
-//      {
-      
-//      }
-     
-//   }
-//   document.write(num[i]+ "  " + count + "<br> ")
-//  }
 let doors = [];
 let persons = [1, 2, 3, 4, 5];
 let index = 0;

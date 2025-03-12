@@ -1,6 +1,6 @@
+// check number is palindrom or not.
 
-//cheak num is palindrom or not
-let realname = "roshni";
+let realname = "nayan";
 let revername = "";
 
 for(let i=realname.length-1;i>=0;i--)
@@ -14,4 +14,6 @@ if(realname==revername)
 else
 {
     document.write("name is not palindrom ");
-}   
+}  
+
+
