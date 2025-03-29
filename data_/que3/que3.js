@@ -66,16 +66,11 @@ class Employee extends Person {
 
 
 const child = new Indian( 8734521698, "jetpur" , "suhani" , 25 , "female" , 1010 , 95000 ,"business"+"<br>")
-const child1 = new Person( 7890543216, "surat" , "sneha" , 20 , "female" , 2010 , 85000 ,"workshop"+"<br>")
-const child2 = new Employee(6785432189, "rajkot" , "mahi" , 15 , "female" , 3010 , 70000 ,"fashion")
-
-
-
-document.writeln( "Indian "+"<br>")
 child.Indian();
-
-document.writeln("Person"+"<br>")
+const child1 = new Person( 7890543216, "surat" , "sneha" , 20 , "female" , 2010 , 85000 ,"workshop"+"<br>")
 child1.Person();
-
-document.writeln("Employee"+"<br>")
+const child2 = new Employee(6785432189, "rajkot" , "mahi" , 15 , "female" , 3010 , 70000 ,"fashion")
 child2.Employee();
+
+
+
