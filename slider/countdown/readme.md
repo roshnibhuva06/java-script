@@ -14,3 +14,7 @@ Lightweight and easy to use
 
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript 
+
+
+https://github.com/user-attachments/assets/89b5d5de-8409-4c76-b2ec-cc6a0691fda0
+
