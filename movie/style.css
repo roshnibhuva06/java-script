@@ -1,0 +1,75 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body {
+  
+    background-image: url("img/p1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.search {
+    text-align: center;
+    padding: 20px 10px;
+   
+}
+.search input
+{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 46px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(232, 221, 221, 0.1);
+}
+.search #btn
+{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+
+.movie {
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background-color: #499cba;
+    color: rgb(29, 30, 30);
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.movie img {
+    width: 70%;
+    height: auto 100px;
+    margin:5px auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 17%;
+}
+.movie h1 
+{
+    margin: 10px 0;
+    text-align: center;  
+}
+.movie h3 
+{
+    margin: 10px 0;
+    text-align: center;  
+}
+.movie h4
+{
+    margin: 10px 0;
+    text-align: center;  
+}
+.movie p 
+{
+    margin: 10px 0;
+    text-align: center;  
+}
