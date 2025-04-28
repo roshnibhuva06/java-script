@@ -1,0 +1,42 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body
+{
+    background:linear-gradient(#FFB6C1,#D8BFD8,#DDA0DD,#B0E0E6);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+body h1
+{
+  text-align: center;
+  padding: 20px;
+  font-weight: 200;
+}
+input
+{
+    padding: 7px;
+    margin-left: 38%;
+    height: 38px;
+    width: 18%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+}
+#btn
+{
+    padding: 5px;
+    margin-left: 0%;
+    height: 38px;
+    width: 5%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 20px;
+}
