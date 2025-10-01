@@ -11,7 +11,6 @@ btn1.addEventListener("click",()=>{
     title.innerHTML = count;
 });
 
-
 btn2.addEventListener("click",()=>{
     if(count > 0)
     {
@@ -42,7 +41,7 @@ btn4.addEventListener("click",()=>{
            count /=2;
            title.innerHTML = count;
         }
-           
     
 });
+
 
