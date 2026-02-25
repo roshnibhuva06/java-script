@@ -1,0 +1,213 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f8f7f4;
+}
+
+/* Navbar Layout */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #ffffff;
+    border-bottom: 1px solid #f3f3f4;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0d0c22;
+    cursor: pointer;
+}
+
+/* Search Container */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f3f3f4;
+    padding: 8px 15px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    width: 360px;
+}
+
+.search-box:focus-within {
+    background: #fff;
+    border-color: rgba(234, 76, 137, 0.4);
+    box-shadow: 0 0 0 4px rgba(234, 76, 137, 0.1);
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #6e6d7a;
+    transition: color 0.2s;
+    margin-left: 45px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-links>li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6e6d7a;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #0d0c22;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #fff;
+    min-width: 220px;
+    border: 1px solid #e7e7e9;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    list-style: none;
+    padding: 12px;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #6e6d7a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown-menu li:hover {
+    background: #f3f3f4;
+    color: #ea4c89;
+    /* Dribbble Pink */
+}
+
+/* Auth Buttons */
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.signup-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6e6d7a;
+    cursor: pointer;
+}
+
+.login-btn {
+    background: #0d0c22;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.login-btn:hover {
+    background: #565564;
+}
+
+.dropdown-shorts {
+    position: relative;
+}
+
+.dropdown-shorts-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background: #fff;
+    min-width: 220px;
+    border: 1px solid #e7e7e9;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    list-style: none;
+    padding: 12px;
+    z-index: 10;
+}
+
+.dropdown-shorts-menu li {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #6e6d7a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dropdown-shorts-menu li:hover {
+    background: #f3f3f4;
+    color: #ea4c89;
+}
+
+.dropdown-shorts:hover .dropdown-shorts-menu {
+    display: block;
+}
+
+.shortsbar {
+
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.shortsbar>li {
+    position: relative;
+}
+.shortsbar a {
+    text-decoration: none;
+    color: #555556;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: color 0.2s;
+}
+.shortsbar a:hover {
+    color: #0d0c22;
+}
+
